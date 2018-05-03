@@ -1,0 +1,13 @@
+# coding: utf-8
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+def pods
+    pod 'FilesProvider'
+    pod 'FilesBrowser', :path => '../'
+end
+
+target 'FilesBrowserDemo' do
+    pods
+end

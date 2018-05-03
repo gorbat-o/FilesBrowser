@@ -34,7 +34,7 @@ class FilesViewController: UIViewController, FilesBrowserControllerDelegate, QLP
 
         // Do any additional setup after loading the view.
         browserController.delegate = self
-        self.transition(child: browserController)
+        //self.transition(from: browserController, to: UIViewController(), duration: 0, animations: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {

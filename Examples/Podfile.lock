@@ -1,0 +1,24 @@
+PODS:
+  - FilesBrowser (0.0.1):
+    - FilesProvider
+  - FilesProvider (0.25.1)
+
+DEPENDENCIES:
+  - FilesBrowser (from `../`)
+  - FilesProvider
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FilesProvider
+
+EXTERNAL SOURCES:
+  FilesBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FilesBrowser: 5f7cc6df7f38107642c05a07aff74e38c2aa40fc
+  FilesProvider: f6ab75211d2fd4814720f19b427e43668dc24585
+
+PODFILE CHECKSUM: 3e3e8dc249b72e4de0dea5a16ab0266a5a62336f
+
+COCOAPODS: 1.5.0

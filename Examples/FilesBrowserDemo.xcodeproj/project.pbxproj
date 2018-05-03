@@ -13,13 +13,9 @@
 		794A1D3120416F0A0033D60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A1D2F20416F0A0033D60D /* LaunchScreen.storyboard */; };
 		794A1D3C20416F0A0033D60D /* FilesBrowserDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1D3B20416F0A0033D60D /* FilesBrowserDemoUITests.swift */; };
 		794A1D47204171C30033D60D /* ProvidersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1D46204171C30033D60D /* ProvidersTableViewController.swift */; };
-		794A1D50204173000033D60D /* FilesProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A1D4F204173000033D60D /* FilesProvider.framework */; };
-		794A1D51204173000033D60D /* FilesProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 794A1D4F204173000033D60D /* FilesProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		794A1D53204173050033D60D /* FilesBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794A1D4E204172D10033D60D /* FilesBrowser.framework */; };
-		794A1D54204173050033D60D /* FilesBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 794A1D4E204172D10033D60D /* FilesBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		794A1D61204195FA0033D60D /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1D60204195F90033D60D /* Transition.swift */; };
 		794A1D6720419FBB0033D60D /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1D6520419FBB0033D60D /* FilesViewController.swift */; };
 		794A1D6820419FBB0033D60D /* FilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794A1D6620419FBB0033D60D /* FilesViewController.xib */; };
+		C4514A60325B8352C794274D /* Pods_FilesBrowserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA80E8B4566C8D0459DA35E /* Pods_FilesBrowserDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +26,6 @@
 			remoteGlobalIDString = 794A1D2220416F0A0033D60D;
 			remoteInfo = FilesBrowserDemo;
 		};
-		794A1D4D204172D10033D60D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 794A1D48204172D10033D60D /* FilesBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 794A1CB92040B6860033D60D;
-			remoteInfo = FilesBrowser;
-		};
-		794A1D55204173050033D60D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 794A1D48204172D10033D60D /* FilesBrowser.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 794A1CB82040B6860033D60D;
-			remoteInfo = FilesBrowser;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,8 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				794A1D51204173000033D60D /* FilesProvider.framework in Embed Frameworks */,
-				794A1D54204173050033D60D /* FilesBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,11 +52,11 @@
 		794A1D3B20416F0A0033D60D /* FilesBrowserDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesBrowserDemoUITests.swift; sourceTree = "<group>"; };
 		794A1D3D20416F0A0033D60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794A1D46204171C30033D60D /* ProvidersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvidersTableViewController.swift; sourceTree = "<group>"; };
-		794A1D48204172D10033D60D /* FilesBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FilesBrowser.xcodeproj; path = ../../FilesBrowser.xcodeproj; sourceTree = "<group>"; };
-		794A1D4F204173000033D60D /* FilesProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FilesProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		794A1D60204195F90033D60D /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = ../../../FilesBrowser/Extension/Transition.swift; sourceTree = "<group>"; };
 		794A1D6520419FBB0033D60D /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 		794A1D6620419FBB0033D60D /* FilesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilesViewController.xib; sourceTree = "<group>"; };
+		C1B733E7BB097F1901841A7F /* Pods-FilesBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilesBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FilesBrowserDemo/Pods-FilesBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DBA80E8B4566C8D0459DA35E /* Pods_FilesBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilesBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BD36317918E1A1FA7FB74 /* Pods-FilesBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilesBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilesBrowserDemo/Pods-FilesBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794A1D50204173000033D60D /* FilesProvider.framework in Frameworks */,
-				794A1D53204173050033D60D /* FilesBrowser.framework in Frameworks */,
+				C4514A60325B8352C794274D /* Pods_FilesBrowserDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +78,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ABDA8FFF9EABFCAAB00D3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA80E8B4566C8D0459DA35E /* Pods_FilesBrowserDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		794A1D1A20416F0A0033D60D = {
 			isa = PBXGroup;
 			children = (
-				794A1D4F204173000033D60D /* FilesProvider.framework */,
 				794A1D2520416F0A0033D60D /* FilesBrowserDemo */,
 				794A1D3A20416F0A0033D60D /* FilesBrowserDemoUITests */,
-				794A1D48204172D10033D60D /* FilesBrowser.xcodeproj */,
 				794A1D2420416F0A0033D60D /* Products */,
+				B160182C727A8524F9A42793 /* Pods */,
+				5ABDA8FFF9EABFCAAB00D3DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,7 +113,6 @@
 				794A1D46204171C30033D60D /* ProvidersTableViewController.swift */,
 				794A1D6520419FBB0033D60D /* FilesViewController.swift */,
 				794A1D6620419FBB0033D60D /* FilesViewController.xib */,
-				794A1D60204195F90033D60D /* Transition.swift */,
 				794A1D62204196250033D60D /* Supporting */,
 			);
 			path = FilesBrowserDemo;
@@ -141,14 +127,6 @@
 			path = FilesBrowserDemoUITests;
 			sourceTree = "<group>";
 		};
-		794A1D49204172D10033D60D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				794A1D4E204172D10033D60D /* FilesBrowser.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		794A1D62204196250033D60D /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +138,15 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
+		B160182C727A8524F9A42793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BD36317918E1A1FA7FB74 /* Pods-FilesBrowserDemo.debug.xcconfig */,
+				C1B733E7BB097F1901841A7F /* Pods-FilesBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,15 +154,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 794A1D4020416F0A0033D60D /* Build configuration list for PBXNativeTarget "FilesBrowserDemo" */;
 			buildPhases = (
+				A39B48572B0E91B27F893BDC /* [CP] Check Pods Manifest.lock */,
 				794A1D1F20416F0A0033D60D /* Sources */,
 				794A1D2020416F0A0033D60D /* Frameworks */,
 				794A1D2120416F0A0033D60D /* Resources */,
 				794A1D52204173000033D60D /* Embed Frameworks */,
+				9FB622548772CB7C7EDEAAAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				794A1D56204173050033D60D /* PBXTargetDependency */,
 			);
 			name = FilesBrowserDemo;
 			productName = FilesBrowserDemo;
@@ -232,12 +220,6 @@
 			mainGroup = 794A1D1A20416F0A0033D60D;
 			productRefGroup = 794A1D2420416F0A0033D60D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 794A1D49204172D10033D60D /* Products */;
-					ProjectRef = 794A1D48204172D10033D60D /* FilesBrowser.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				794A1D2220416F0A0033D60D /* FilesBrowserDemo */,
@@ -245,16 +227,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		794A1D4E204172D10033D60D /* FilesBrowser.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FilesBrowser.framework;
-			remoteRef = 794A1D4D204172D10033D60D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		794A1D2120416F0A0033D60D /* Resources */ = {
@@ -277,12 +249,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FB622548772CB7C7EDEAAAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FilesBrowserDemo/Pods-FilesBrowserDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FilesBrowser/FilesBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/FilesProvider/FilesProvider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FilesBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FilesProvider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FilesBrowserDemo/Pods-FilesBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39B48572B0E91B27F893BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilesBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		794A1D1F20416F0A0033D60D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794A1D61204195FA0033D60D /* Transition.swift in Sources */,
 				794A1D47204171C30033D60D /* ProvidersTableViewController.swift in Sources */,
 				794A1D6720419FBB0033D60D /* FilesViewController.swift in Sources */,
 				794A1D2720416F0A0033D60D /* AppDelegate.swift in Sources */,
@@ -304,11 +316,6 @@
 			isa = PBXTargetDependency;
 			target = 794A1D2220416F0A0033D60D /* FilesBrowserDemo */;
 			targetProxy = 794A1D3820416F0A0033D60D /* PBXContainerItemProxy */;
-		};
-		794A1D56204173050033D60D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FilesBrowser;
-			targetProxy = 794A1D55204173050033D60D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -441,10 +448,12 @@
 		};
 		794A1D4120416F0A0033D60D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1BD36317918E1A1FA7FB74 /* Pods-FilesBrowserDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGM45RH5LU;
 				INFOPLIST_FILE = "$(SRCROOT)/FilesBrowserDemo/Supporting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -457,10 +466,12 @@
 		};
 		794A1D4220416F0A0033D60D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B733E7BB097F1901841A7F /* Pods-FilesBrowserDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGM45RH5LU;
 				INFOPLIST_FILE = "$(SRCROOT)/FilesBrowserDemo/Supporting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
